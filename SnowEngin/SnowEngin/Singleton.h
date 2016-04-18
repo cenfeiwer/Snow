@@ -13,7 +13,7 @@ private:
 
 	static SingletonCreator m_Creator;
 
-	tSingleton();
+	
 
 public:
 

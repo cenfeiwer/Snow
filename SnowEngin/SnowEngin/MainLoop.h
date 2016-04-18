@@ -1,5 +1,6 @@
 #ifndef _MAINLOOP_H_
 #define _MAINLOOP_H_
+#include "Console.h"
 
 #pragma once
 class MainLoop
