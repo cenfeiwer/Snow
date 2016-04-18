@@ -11,10 +11,66 @@
     <Filter Include="Engin">
       <UniqueIdentifier>{e285442a-2441-485f-8c1c-22e27bc6f65f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engin\platform">
+      <UniqueIdentifier>{5d38a9fb-7a18-4053-ba0a-a487f1a9a529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engin\Interface">
+      <UniqueIdentifier>{a82161cf-73a7-449f-831f-c895857fa25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engin\Device">
+      <UniqueIdentifier>{bf7f008f-89db-442d-a2a5-797f7d283183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engin\Debug">
+      <UniqueIdentifier>{e8321db6-9556-4ab3-982f-3336c2aea8b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Singleton.h">
       <Filter>base</Filter>
     </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Engin\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoop.h">
+      <Filter>Engin\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatFormWindowManager.h">
+      <Filter>Engin\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatFormW32Window.h">
+      <Filter>Engin\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="ISWdevice.h">
+      <Filter>Engin\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9Device.h">
+      <Filter>Engin\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Engin\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="cInterface.h">
+      <Filter>Engin\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Engin\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoop.cpp">
+      <Filter>Engin\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatFormWindowManager.cpp">
+      <Filter>Engin\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatFormW32Window.cpp">
+      <Filter>Engin\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9Device.cpp">
+      <Filter>Engin\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Engin</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
