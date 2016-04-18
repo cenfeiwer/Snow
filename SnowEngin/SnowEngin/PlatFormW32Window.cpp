@@ -46,7 +46,7 @@ bool PlatFormW32Window::Create(DeviceMode* mode, std::string WindowName)
 	// 创建窗口  
 	HWND hwnd = CreateWindow(
 		cls_Name,           //类名，要和刚才注册的一致  
-		"我的应用程序",  //窗口标题文字  
+		WindowName.c_str(),  //窗口标题文字  
 		WS_OVERLAPPEDWINDOW, //窗口外观样式  
 		0,             //窗口相对于父级的X坐标  
 		0,             //窗口相对于父级的Y坐标  
