@@ -52,6 +52,24 @@
     <ClInclude Include="cInterface.h">
       <Filter>Engin\Interface</Filter>
     </ClInclude>
+    <ClInclude Include="tSignal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="tVector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="delegate.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegate.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlateform.h">
+      <Filter>base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform.cpp">
@@ -71,6 +89,12 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Engin</Filter>
+    </ClCompile>
+    <ClCompile Include="tSignal.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="tVector.cpp">
+      <Filter>base</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

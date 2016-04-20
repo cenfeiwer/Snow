@@ -80,14 +80,22 @@
   <ItemGroup>
     <ClInclude Include="Console.h" />
     <ClInclude Include="D3D9Device.h" />
+    <ClInclude Include="delegate.h" />
+    <ClInclude Include="FastDelegate.h" />
     <ClInclude Include="ISWdevice.h" />
     <ClInclude Include="MainLoop.h" />
+    <ClInclude Include="BasePlateform.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="PlatFormW32Window.h" />
     <ClInclude Include="PlatFormWindowManager.h" />
     <ClInclude Include="Singleton.h" />
+    <ClInclude Include="tSignal.h" />
+    <ClInclude Include="tVector.h" />
+    <ClInclude Include="types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="tSignal.cpp" />
+    <ClCompile Include="tVector.cpp" />
     <ClInclude Include="cInterface.h">
       <FileType>CppCode</FileType>
     </ClInclude>

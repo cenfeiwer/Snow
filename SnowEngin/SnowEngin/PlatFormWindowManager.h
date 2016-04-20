@@ -16,6 +16,7 @@ class PlatFormWindowManager : public tSingleton<PlatFormWindowManager>
 
 public:
 	bool CreateW32Window(/*ISWdevice* device,*/ DeviceMode* mode, std::string WindowName = "Snow");
+	void testSignal();
 	
 private:
 	WindowList m_wndList;

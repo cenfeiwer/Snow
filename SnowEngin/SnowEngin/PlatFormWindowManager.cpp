@@ -18,3 +18,8 @@ bool PlatFormWindowManager::CreateW32Window(/*ISWdevice* device,*/ DeviceMode* m
 
 	return true;
 }
+
+void PlatFormWindowManager::testSignal()
+{
+	MessageBox(NULL, "–≈∫≈ ’µΩ", NULL, MB_OK);
+}
